@@ -1,7 +1,7 @@
 body {
   font-family: "poppins", sans-serif;
 }
-
+  
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,7 +42,7 @@ header > div {
 section,
 .content,
 .featured-icon {
-  background: url(graffiti1.jpg) ;
+  background: url(graffiti1.jpg);
   background-color: #111;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
