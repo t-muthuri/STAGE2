@@ -1,0 +1,114 @@
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content a,
+.featured-icon a {
+    color: #fff;
+}
+
+.side-content a {
+    color: black;
+}
+
+header > div {
+    padding: 1.5em;
+}
+
+.social-media li {
+    margin: 1em 0;
+}
+
+.content {
+    color: #fff;
+}
+
+/* added section here to have the bg img */
+section, .content, .featured-icon {
+    background: url(graffiti-art-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.side-content {
+    background: #fff;
+}
+
+.side-img {
+    background: url(graffiti-art-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+.featured-post {
+    background: #fff;
+}
+
+.featured-post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+.featured-post h4 {
+    margin: 0.5em 0;
+}
+
+.featured-post a{
+    color: #37d337;
+}
+
+.featured-icon {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.arrows {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.arrows i {
+    cursor: pointer;
+}
+
+section {
+    padding: 2.5em;
+    color: #fff;
+    /* background: #111; 
+    commented out the white bg for section*/
+}
+
+section p {
+    max-width: 600px;
+}
+
+@media screen and ( max-width: 850px){
+    html {font-size: 14px};
+}
