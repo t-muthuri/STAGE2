@@ -53,7 +53,7 @@ section,
 }
 
 .side-content {
-  background: #fff;
+  background-colour: #fff;
 }
 
 .side-img {
@@ -80,7 +80,7 @@ section,
 }
 
 .featured-post a {
-  color: #37d337;
+  color: #000;
 }
 
 .featured-icon {
